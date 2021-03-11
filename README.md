@@ -1,4 +1,4 @@
-# Polykit VCA-ADRS
+# Polykit VCA-ADSR
 
 This repository contains schematics and PCB layout for a board with a VCA and an ADSR on it.
 
