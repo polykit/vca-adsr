@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 1 3
 Title "Polykit VCA-ADSR"
 Date "2021-03-10"
-Rev "v1.0.0"
+Rev "v1.0.1"
 Comp "Jan Knipper"
 Comment1 "github.com/polykit/vca-adsr"
 Comment2 ""

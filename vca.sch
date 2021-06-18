@@ -6,7 +6,7 @@ encoding utf-8
 Sheet 3 3
 Title "VCA"
 Date "2021-02-15"
-Rev "v1.0.0"
+Rev "v1.0.1"
 Comp "Jan Knipper"
 Comment1 "github.com/polykit/vca-adsr"
 Comment2 ""
@@ -582,10 +582,10 @@ F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 5350 5150 50  0001 L 
 	1    0    0    1   
 $EndComp
 $Comp
-L Transistor_BJT:2N3904 Q2*
+L Transistor_BJT:2N3904 Q2*1
 U 1 1 604C170B
 P 6250 3600
-F 0 "Q2*" H 6441 3646 50  0000 L CNN
+F 0 "Q2*1" H 6441 3646 50  0000 L CNN
 F 1 "2N3904" H 6441 3555 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 6450 3525 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 6250 3600 50  0001 L CNN
@@ -593,10 +593,10 @@ F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 6250 3600 50  0001 L 
 	-1   0    0    -1  
 $EndComp
 $Comp
-L Transistor_BJT:2N3904 Q1*
+L Transistor_BJT:2N3904 Q1*1
 U 1 1 604C108A
 P 5150 3600
-F 0 "Q1*" H 5340 3646 50  0000 L CNN
+F 0 "Q1*1" H 5340 3646 50  0000 L CNN
 F 1 "2N3904" H 5340 3555 50  0000 L CNN
 F 2 "Package_TO_SOT_THT:TO-92_Inline_Wide" H 5350 3525 50  0001 L CIN
 F 3 "https://www.onsemi.com/pub/Collateral/2N3903-D.PDF" H 5150 3600 50  0001 L CNN
@@ -635,10 +635,10 @@ Connection ~ 5700 4850
 Wire Wire Line
 	5450 4850 5700 4850
 $Comp
-L power:+12V #PWR?
+L power:+12V #PWR0134
 U 1 1 604A0FB2
 P 8300 4600
-F 0 "#PWR?" H 8300 4450 50  0001 C CNN
+F 0 "#PWR0134" H 8300 4450 50  0001 C CNN
 F 1 "+12V" H 8315 4773 50  0000 C CNN
 F 2 "" H 8300 4600 50  0001 C CNN
 F 3 "" H 8300 4600 50  0001 C CNN
@@ -649,10 +649,10 @@ Wire Wire Line
 	8300 4700 8300 4600
 Connection ~ 8300 4700
 $Comp
-L power:-12V #PWR?
+L power:-12V #PWR0135
 U 1 1 604ADCA8
 P 8300 5400
-F 0 "#PWR?" H 8300 5500 50  0001 C CNN
+F 0 "#PWR0135" H 8300 5500 50  0001 C CNN
 F 1 "-12V" H 8315 5573 50  0000 C CNN
 F 2 "" H 8300 5400 50  0001 C CNN
 F 3 "" H 8300 5400 50  0001 C CNN
